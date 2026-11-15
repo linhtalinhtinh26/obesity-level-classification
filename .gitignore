@@ -1,0 +1,38 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Raw data: retain only its documentation and placeholder
+data/**
+!data/README.md
+!data/.gitkeep
+*.zip
+*.7z
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+kaggle.json
+.aws/
+*.pem
+*.key
+.vscode/
+.idea/
+
+# Large model artifacts and temporary files
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.onnx
+*.log
+*.tmp
+~$*
+Thumbs.db
+.DS_Store
