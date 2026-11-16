@@ -1,0 +1,59 @@
+check,column,count,criterion,passed
+row_count,,20758,Expected 20758,True
+column_count,,18,Expected 18,True
+feature_count,,16,Expected 16,True
+missing,id,0,"Blank, NA, N/A, NaN or NULL",True
+invalid_id,id,0,"Nonnegative decimal integer, at most 18 digits",True
+duplicate_id,id,0,"Repeated valid integer ID, excluding first occurrence",True
+missing,Gender,0,"Blank, NA, N/A, NaN or NULL",True
+unexpected_category,Gender,0,Exact match to Female | Male,True
+missing,Age,0,"Blank, NA, N/A, NaN or NULL",True
+invalid_numeric,Age,0,Finite number required,True
+out_of_range,Age,0,"Inclusive screening range [0, 120]",True
+missing,Height,0,"Blank, NA, N/A, NaN or NULL",True
+invalid_numeric,Height,0,Finite number required,True
+out_of_range,Height,0,"Inclusive screening range [0.5, 3]",True
+missing,Weight,0,"Blank, NA, N/A, NaN or NULL",True
+invalid_numeric,Weight,0,Finite number required,True
+out_of_range,Weight,0,"Inclusive screening range [2, 700]",True
+missing,family_history_with_overweight,0,"Blank, NA, N/A, NaN or NULL",True
+unexpected_category,family_history_with_overweight,0,Exact match to yes | no,True
+missing,FAVC,0,"Blank, NA, N/A, NaN or NULL",True
+unexpected_category,FAVC,0,Exact match to yes | no,True
+missing,FCVC,0,"Blank, NA, N/A, NaN or NULL",True
+invalid_numeric,FCVC,0,Finite number required,True
+out_of_range,FCVC,0,"Inclusive screening range [1, 3]",True
+missing,NCP,0,"Blank, NA, N/A, NaN or NULL",True
+invalid_numeric,NCP,0,Finite number required,True
+out_of_range,NCP,0,"Inclusive screening range [1, 4]",True
+missing,CAEC,0,"Blank, NA, N/A, NaN or NULL",True
+unexpected_category,CAEC,0,Exact match to no | Sometimes | Frequently | Always,True
+missing,SMOKE,0,"Blank, NA, N/A, NaN or NULL",True
+unexpected_category,SMOKE,0,Exact match to yes | no,True
+missing,CH2O,0,"Blank, NA, N/A, NaN or NULL",True
+invalid_numeric,CH2O,0,Finite number required,True
+out_of_range,CH2O,0,"Inclusive screening range [1, 3]",True
+missing,SCC,0,"Blank, NA, N/A, NaN or NULL",True
+unexpected_category,SCC,0,Exact match to yes | no,True
+missing,FAF,0,"Blank, NA, N/A, NaN or NULL",True
+invalid_numeric,FAF,0,Finite number required,True
+out_of_range,FAF,0,"Inclusive screening range [0, 3]",True
+missing,TUE,0,"Blank, NA, N/A, NaN or NULL",True
+invalid_numeric,TUE,0,Finite number required,True
+out_of_range,TUE,0,"Inclusive screening range [0, 2]",True
+missing,CALC,0,"Blank, NA, N/A, NaN or NULL",True
+unexpected_category,CALC,0,Exact match to no | Sometimes | Frequently | Always,True
+missing,MTRANS,0,"Blank, NA, N/A, NaN or NULL",True
+unexpected_category,MTRANS,0,Exact match to Automobile | Motorbike | Bike | Public_Transportation | Walking,True
+missing,NObeyesdad,0,"Blank, NA, N/A, NaN or NULL",True
+unexpected_category,NObeyesdad,0,Exact match to Insufficient_Weight | Normal_Weight | Overweight_Level_I | Overweight_Level_II | Obesity_Type_I | Obesity_Type_II | Obesity_Type_III,True
+duplicate_full_row,,0,"Exact CSV field equality, excluding first occurrence",True
+duplicate_without_id,,0,"Exact CSV field equality, excluding first occurrence",True
+label_total,NObeyesdad,20758,Expected 20758 known labels,True
+absent_label,Insufficient_Weight,0,Expected label occurs,True
+absent_label,Normal_Weight,0,Expected label occurs,True
+absent_label,Overweight_Level_I,0,Expected label occurs,True
+absent_label,Overweight_Level_II,0,Expected label occurs,True
+absent_label,Obesity_Type_I,0,Expected label occurs,True
+absent_label,Obesity_Type_II,0,Expected label occurs,True
+absent_label,Obesity_Type_III,0,Expected label occurs,True
