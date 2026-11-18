@@ -1,0 +1,9 @@
+label,status,count
+Insufficient_Weight,expected,2523
+Normal_Weight,expected,3082
+Overweight_Level_I,expected,2427
+Overweight_Level_II,expected,2522
+Obesity_Type_I,expected,2910
+Obesity_Type_II,expected,3248
+Obesity_Type_III,expected,4046
+,missing,0
