@@ -1,0 +1,4 @@
+split,seed,train_rows,validation_rows,input_features,output_features,shared_feature_patterns,train_rows_in_shared_patterns,validation_rows_in_shared_patterns,cross_split_duplicate_pairs,all_checks_passed
+80_20,42,16606,4152,16,30,0,0,0,0,True
+70_30,42,14530,6228,16,30,0,0,0,0,True
+60_40,42,12454,8304,16,30,0,0,0,0,True

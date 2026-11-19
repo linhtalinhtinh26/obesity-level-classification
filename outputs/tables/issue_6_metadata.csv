@@ -1,0 +1,4 @@
+split,seed,validation_fraction,source_sha256,source_rows,positions_file,position_kind,python,numpy,pandas,scikit_learn,positions_sha256
+80_20,42,0.2,fec835cc642ffbc3274a026abfe465d0aaceedfe2f7b35d987029f676d7dae6d,20758,issue_6_positions_80_20.csv,zero_based_iloc_in_source_file_order,3.11.9,2.4.6,3.1.1,1.9.1,baef31229ffc94db499b0436379148fc6f89075a3975224b5ad42506581202fb
+70_30,42,0.3,fec835cc642ffbc3274a026abfe465d0aaceedfe2f7b35d987029f676d7dae6d,20758,issue_6_positions_70_30.csv,zero_based_iloc_in_source_file_order,3.11.9,2.4.6,3.1.1,1.9.1,0a1978e93a2a03f7076f3f66daeda95c106ca1150f6db273046a58be78b277ac
+60_40,42,0.4,fec835cc642ffbc3274a026abfe465d0aaceedfe2f7b35d987029f676d7dae6d,20758,issue_6_positions_60_40.csv,zero_based_iloc_in_source_file_order,3.11.9,2.4.6,3.1.1,1.9.1,6e7e799a260d669287f54484481f15f715b1cfdf8f93879bd257af71f83a3890
